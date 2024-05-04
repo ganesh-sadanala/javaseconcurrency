@@ -21,3 +21,7 @@ To overcome the above limitations in Java SE, we have Executor Advanced APIs.
     - Callable (to return from thread) and Future (to store the returned value from thread) are provided
     - Allows thread run to throw Exceptions.
     - Works with both Runnable and Callable objects.
+- ExecutorService Demo Usecase:
+  - Read user information from a file, process them, and insert a record for each user into a database.
+  ![ExecutorServiceArch.png](..%2F..%2F..%2F..%2Fresources%2FExecutorServiceArch.png)
+  - 
