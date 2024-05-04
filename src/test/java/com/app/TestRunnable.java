@@ -1,6 +1,8 @@
 package com.app;
 
 import java.io.*;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -20,6 +22,18 @@ public class TestRunnable {
             }
         };
         Thread thread=new Thread(runnable);
+
+        // Executor API
+        // executes submitted tasks
+        Executor executor= Executors.newSingleThreadExecutor();
+        executor.execute(runnable);
+
+        // ExecutorService
+        // Manages lifecycle of all individual threads and also Executor
+        // Provides submit method, which accepts both Runnable and Callable objects
+        // Helps execute a collection of Callable/Runnable objects
+        // Helps to capture the output of a task
+        // Helps to shutdown Executor
 
     }
 }
