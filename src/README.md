@@ -28,4 +28,5 @@ To overcome the above limitations in Java SE, we have Executor Advanced APIs.
   - Housekeeping job for the application.
   - Pick a folder, list all the files from it and check if they are older than a specific time limit; if so delete them;
   schedule a job for this periodic check.
-
+- ThreadFactory
+  - Custom thread factory allows to break the default implementation
