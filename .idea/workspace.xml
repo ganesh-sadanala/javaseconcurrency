@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="603b2a25-c6a7-4961-9e4f-ca9cfd2e58b1" name="Changes" comment="Explore Advanced Java SE concurrency API: ExecutorService">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/runnables/CleaningScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/TestSchedulors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/runnables/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+    <list default="true" id="603b2a25-c6a7-4961-9e4f-ca9cfd2e58b1" name="Changes" comment="Add - Why Java EE is needed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ganesh-sadanala&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d2164b17-db22-49bf-a908-dbf340a18349" />
+        <option name="url" value="https://github.com/ganesh-sadanala/javaeeconcurrency.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +54,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gsadanala/IdeaProjects/javaseconcurrency"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,7 +116,47 @@
       <option name="project" value="LOCAL" />
       <updated>1714865666164</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Explore Advanced Java SE concurrency API: ScheduledExecutorService">
+      <option name="closed" value="true" />
+      <created>1714867438818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714867438818</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add Custom ThreadFactory details">
+      <option name="closed" value="true" />
+      <created>1714867556501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714867556501</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Custom ThreadFactory details">
+      <option name="closed" value="true" />
+      <created>1714867628038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714867628038</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add - Why Java EE is needed">
+      <option name="closed" value="true" />
+      <created>1714876135267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714876135268</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add - Why Java EE is needed">
+      <option name="closed" value="true" />
+      <created>1714931018820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714931018820</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +167,11 @@
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="bb3d73d6-f29b-4527-9564-dd3d3185bccb">
           <value>
             <State>
@@ -147,6 +205,9 @@
     <MESSAGE value="Explore basic java se thread apis and see limitations." />
     <MESSAGE value="Explore Advanced Java SE concurrency API: Executor" />
     <MESSAGE value="Explore Advanced Java SE concurrency API: ExecutorService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explore Advanced Java SE concurrency API: ExecutorService" />
+    <MESSAGE value="Explore Advanced Java SE concurrency API: ScheduledExecutorService" />
+    <MESSAGE value="Add Custom ThreadFactory details" />
+    <MESSAGE value="Add - Why Java EE is needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add - Why Java EE is needed" />
   </component>
 </project>
