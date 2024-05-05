@@ -23,10 +23,32 @@ To overcome the above limitations in Java SE, we have Executor Advanced APIs.
     - Works with both Runnable and Callable objects.
 - ExecutorService Demo Usecase:
   - Read user information from a file, process them, and insert a record for each user into a database.
-  ![ExecutorServiceArch.png](..%2F..%2F..%2F..%2Fresources%2FExecutorServiceArch.png)
+  ![ExecutorServiceArch.png](main%2Fresources%2FExecutorServiceArch.png)
 - ScheduledExecutorService Demo Usecase:
   - Housekeeping job for the application.
   - Pick a folder, list all the files from it and check if they are older than a specific time limit; if so delete them;
   schedule a job for this periodic check.
 - ThreadFactory
   - Custom thread factory allows to break the default implementation
+
+
+
+- **Need for Java Enterprise Edition(JEE) concurrency APIs**
+  - Java EE applications work within an underlying container or an application server.
+  - Containers provide runtime support for application components like EJBs and Servlets 
+    (they provide a layer between application component code and platform resources and services).
+  - Java EE servers provide central resource management(Resources like JDBC DataSources, connection pooling, transaction management, ).
+  - Management environment set up by the container.
+  - In such an environment, application integrity is important. When we have a management environment like that
+    applications can co-exist without causing any harm to the overall system.
+  - When you have a thread running a job in an enterprise environment, the container is going to expect that the thread gets all the 
+    container's supplied objects and resources to run the asynchronous task.
+  - Another thing is the thread is required to access the Standard Enterprise Edition services, like 
+    JMS, EJB, etc. For this contextual information(directory interface naming, class loader information, security context)
+    of container need to be propagated to the threads 
+    to access standard JEE services.
+  - It is very important that container propagates this information to all the threads executing the jobs for you.
+  - **If we try to create our own threads, using the Java SE then the container will not be aware/wouldn't have knowledge
+    on any of these thread resources. In that case, it will be a problem because it will not be able to provide correctly the contextual information needed
+    to access the Java Enterprise services.**
+  - It will be wiser for the container to manage those threads instead of us managing them.
