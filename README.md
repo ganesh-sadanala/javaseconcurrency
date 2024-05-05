@@ -23,7 +23,7 @@ To overcome the above limitations in Java SE, we have Executor Advanced APIs.
     - Works with both Runnable and Callable objects.
 - ExecutorService Demo Usecase:
   - Read user information from a file, process them, and insert a record for each user into a database.
-  ![ExecutorServiceArch.png](main%2Fresources%2FExecutorServiceArch.png)
+  ![ExecutorServiceArch.png](src%2Fmain%2Fresources%2FExecutorServiceArch.png)
 - ScheduledExecutorService Demo Usecase:
   - Housekeeping job for the application.
   - Pick a folder, list all the files from it and check if they are older than a specific time limit; if so delete them;
